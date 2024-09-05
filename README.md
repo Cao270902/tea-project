@@ -1,3 +1,19 @@
+npx create-next-app@latest
+
+npx shadcn@latest init  
+npx shadcn@latest add button
+
+npm install -D prettier prettier-plugin-tailwindcss
+.prettierrc{
+"plugins": ["prettier-plugin-tailwindcss"]
+}
+
+npm install axios
+npm install react-hook-form  
+npm install @hookform/resolvers
+npm install zod
+npm run dev
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
